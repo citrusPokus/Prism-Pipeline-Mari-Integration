@@ -11,10 +11,12 @@ We needed a way to efficiently integrate it in our pipeline which was based on M
 
 ### Link Prism Asset
 <img width="498" height="273" alt="image" src="https://github.com/user-attachments/assets/e9e19df0-f0d7-4e0c-b9c9-5390a93ef7d4" />
+
 Set the Prism project Root directory for Local and global. If you don't work on a server simply ignore the option.
 To set the category make sure the Asset you are trying to link to are inside a folder in your prism project browser.
-#### Target Render
 
+#### Target Render
+Leave this option Empty for now this is still in developement. The goal is to directly translate to the right render format to enable lookdev auto update in main DCC.
 
 ### Export Texture
 Exporting is always done locally first using the Export texture to local. The files are then copy in the corresponding prism folder on the server using the Publish texture to global option.
