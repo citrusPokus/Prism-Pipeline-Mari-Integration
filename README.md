@@ -16,10 +16,13 @@ Set the Prism project Root directory for Local and global. If you don't work on 
 To set the category make sure the Asset you are trying to link to are inside a folder in your prism project browser.
 
 #### Target Render
-Leave this option Empty for now this is still in developement. The goal is to directly translate to the right render format to enable lookdev auto update in main DCC.
+Leave this option Empty for now this is still in development. The goal is to directly translate to the right render format to enable lookdev auto update in main DCC.
 
 ### Export Texture
 Exporting is always done locally first using the Export texture to local. The files are then copy in the corresponding prism folder on the server using the Publish texture to global option.
 
 ### Archive Mari Project
-Same logic as the Texture exports. it's first done locally and can then be publish to global using the corresponding options. 
+Same logic as the Texture exports. it's first done locally and can then be publish to global using the corresponding options.
+
+### Prism Smart Export
+still in development.
